@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+
+# production
+build/
+dist/
+
+# misc
+.DS_Store
+.env
+*.log
+
+# local environment settings
+.vscode/
+.idea/
+*.local
+
+# testing
+coverage/
+*.snap
+
+# next.js
+.next/
+out/
+
+# parcel-bundler
+.cache/
+.parcel-cache/
+
+# storybook
+.out/
+storybook-static/
+
+# SvelteKit
+.svelte-kit/
+
+# TypeScript
+*.tsbuildinfo
+
+# vercel
+.vercel/
